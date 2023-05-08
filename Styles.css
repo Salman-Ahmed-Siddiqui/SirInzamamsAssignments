@@ -42,6 +42,13 @@ H1 {
     color: white;
     padding: 10px;
   } 
+
+  h5 {
+    background-color: rgb(35, 219, 112);
+    border-radius: 12px;
+    color: white;
+    padding: 10px;
+  } 
   div {
     border: 0.5rem outset pink;
     outline: 0.5rem solid khaki;
