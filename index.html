@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <title>Sir Inzamam's 9 Assignments</title>
+    <link rel="stylesheet" type="text/css" href="Styles.css"></link>
+    <script src="mainforall.js"></script>
+  </head>
+  <body>
+ 
+    <H1>Sir Inzamam's 9 Assignments</H1>
+    
+    <div>
+    <label>Assignment No.1  :Write a function that takes in a number from an input element and displays the factorial of that number in an output element.</label>
+    <br><br>
+    <h2>Calculate Factorial Number</h2>
+    <label>Enter a number:</label>
+    <input type="number" id="numberInput">
+    <br><br>
+    
+    <button onclick="calculateFactorial()">Calculate Factorial</button>
+    <br><br>
+    <output id="factorialOutput"></output>
+     </div>
+    
+    <br><br>
+    <div>
+    <label>Assignment No.2  :Write a function that takes in a string from an input element and displays the same string with all the vowels removed in an output element.</label>
+    <br><br>
+    <h2>Remove Vowels from given text</h2>
+    <input type="text" id="input" placeholder="Enter some text">
+<button onclick="removeVowels()">Remove Vowels</button>
+<br><br>
+<p id="output"></p>
+</div>
+<br><br>
+<div>
+<label>Assignment No.3  :Write a function that takes in an array of numbers from an input element and displays the largest number in the array in an output element.</label>
+<br><br>
+<h2>Dislay Largest Number from user given numbers.</h2>
+<input type="text" id="inputMax" placeholder="Enter comma-separated numbers">
+<button onclick="findMaxnumber()">Find Largest Number</button>
+<br><br>
+<p id="outputMax"></p>
+</div>
+<br><br>
+<div>
+<label>Assignment No.4  :Write a function that takes in a string from an input element and displays the same string with the first letter of every word capitalized in an output element.</label>
+<br><br>
+<h2>Display user given string in Sentance Case.</h2>
+<input type="text" id="inputCap" placeholder="Enter a string">
+<button onclick="capitalizeWords()">Capitalize Words</button>
+<p id="outputCap"></p>
+</div>
+<br><br>
+<div>
+<label>Assignment No.5  : Write a function that takes in an array of numbers from an input element and displays the average of those numbers in an output element.</label>
+<br><br>
+<h2>Calculate Average from User given numbers.</h2>
+<input type="text" id="inputAvg" placeholder="Enter numbers separated by commas">
+<button onclick="calculateAverage()">Calculate Average</button>
+<p id="outputAvg"></p>
+</div>
+
+<br><br>
+<div>
+<label>Assignment No.6  : Write a function that takes in a string from an input element and displays true if the string is a palindrome and false if it is not in an output element.</label>
+<h2>Check Palindrome Text</h2>
+<label for="inputPal">Enter a string:</label>
+<input type="text" id="inputPal">
+<button onclick="checkPalindrome()">Check Palindrome</button>
+<br>
+<label for="outputPal">Is it a palindrome?</label>
+<output id="outputPal"></output>
+</div>
+
+<br><br>
+<div>
+<label>Assignment No.7  : Write a function that takes in an array of strings from an input element and displays a new array with all the strings sorted in alphabetical order in an output element.</label>
+<h2>Sort Strings in Alphabetical Order</h2>
+
+
+<input type="text" id="inputstrings" placeholder="Enter strings separated by commas" />
+<button onclick="sortStrings()">Sort Alphabets</button>
+<br />
+<br />
+<output id="outputstrings"></output>
+</div>
+<br><br>
+<div>
+<label>Assignment No.8  : Write a function that takes in a number from an input element and displays true if the number is prime and false if it is not in an output element.</label>
+<h2>To Find Prime number.</h2>
+
+<label for="num-inputpr">Enter a number:</label>
+<input type="number" id="num-inputpr">
+<br><br>
+<button onclick="checkPrime()">Check Prime Number</button>
+<p>Is Prime Number true or false: <span id="outputpr"></span></p>
+</div>
+
+<div>
+<label>Assignment No.9  : Write a function that takes in an array of objects from an input element and displays a new array with all the objects sorted by a given property in an output element.
+</label>
+<h2>Differents objects sorted a given property.</h2>
+<input type="text" id="input" placeholder="Enter array of objects">
+<select id="select">
+  <option value="name">Name</option>
+  <option value="age">Age</option>
+  <option value="salary">Salary</option>
+</select>
+<button onclick="sortObjects()">Sort Objects</button>
+<br><br>
+<p id="output"></p>
+</div>
+
+
+
+
+</body>
+</html>

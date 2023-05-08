@@ -1,0 +1,54 @@
+  #output {
+    font-size: 16px;
+    color: red;
+  }
+
+  /* Add some basic styling to the page */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    
+  }
+  input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+
+H1 {
+    background-color: lightblue;
+    border-radius: 12px;
+    color: black;
+    padding: 40px;
+    text-align: center;
+  }
+
+  h2 {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+  } 
+  div {
+    border: 0.5rem outset pink;
+    outline: 0.5rem solid khaki;
+    box-shadow: 0 0 0 2rem skyblue;
+    border-radius: 12px;
+    font: bold 1rem sans-serif;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+  }
